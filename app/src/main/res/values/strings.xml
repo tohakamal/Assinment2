@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyDemo</string>
+    <string name="edit_profile_name">Name:</string>
+    <string name="edit_profile_age">Age:</string>
+    <string name="edit_profile_phn">Number:</string>
+    <string name="edit_profile_weight">Body Weight:</string>
+    <string name="edit_profile_dob">DOB</string>
+    <string name="edit_profile_gender">Gender</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_save">Save</string>
+</resources>

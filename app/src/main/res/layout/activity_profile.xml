@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="136dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_image"
+                android:layout_width="405dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/image1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_name1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/edit_profile_name"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/iv_image" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_name_demo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="aa"
+                app:layout_constraintEnd_toEndOf="@id/tv_name1"
+                app:layout_constraintTop_toBottomOf="@id/iv_image" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_age1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/edit_profile_age"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_name1" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_age_demo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="aaa"
+                app:layout_constraintEnd_toEndOf="@id/tv_age1"
+                app:layout_constraintTop_toBottomOf="@id/tv_name_demo" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_phn1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:text="No."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_age1" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_phn_demo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="aaa"
+                app:layout_constraintEnd_toEndOf="@id/tv_phn1"
+                app:layout_constraintTop_toBottomOf="@id/tv_age_demo" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_dob1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+
+                android:text="@string/edit_profile_dob"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_phn1" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_dob_demo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="aaa"
+                app:layout_constraintEnd_toEndOf="@id/tv_dob1"
+                app:layout_constraintTop_toBottomOf="@id/tv_phn_demo" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_gender1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+
+                android:text="@string/edit_profile_gender"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_dob1" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_gender_demo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="aaa"
+                app:layout_constraintEnd_toEndOf="@id/tv_gender1"
+                app:layout_constraintTop_toBottomOf="@id/tv_dob_demo" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_weight1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/edit_profile_weight"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_gender1" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_weight_demo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="aaa"
+                app:layout_constraintEnd_toEndOf="@id/tv_weight1"
+                app:layout_constraintTop_toBottomOf="@id/tv_gender_demo" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
