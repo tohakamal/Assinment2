@@ -1,12 +1,12 @@
 {
    "id": 101,
-    "name": "Pizza Italizano",
-    "price": 279,
+    "name": "Pizza Hut",
+    "price": 199,
     "discount": 10,
     "isFavorite": true,
-    "imageUrl": "https://static.toiimg.com/photo/53110049.cms",
+    "imageUrl": "https://www.episerver.com/globalassets/02.-global-images/frontify/website-images/alan-hardman-su1lfoeeukk-unsplash.jpg",
     "rating": 4.8,
-    "description": "Lorem ipsum lorem lorem do to loream loolf foo",
+    "description": "Make it great",
     "restaurantName": "Mom's Kitchen",
-    "restaurantZone": "Mirpur"
+    "restaurantZone": "Dhanmondi"
 }
